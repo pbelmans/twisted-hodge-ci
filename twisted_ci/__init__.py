@@ -1,1 +1,1 @@
-from twisted_ci.twisted import *
+from twisted_ci.twisted_ci import *
