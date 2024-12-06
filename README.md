@@ -15,12 +15,12 @@ The file `twisted.py` implements the computation of twisted Hodge numbers for co
 
 * [MR0447266] Brückmann, Peter: Zur Kohomologie von vollständigen Durchschnitten mit Koeffizienten in der Garbe der Keime der Differentialformen. II.
   Math. Nachr. 77 (1977), 307–318.
-  
+
 If you have used this code in any way, please consider citing it as explained on [Zenodo](https://doi.org/10.5281/zenodo.7006757). You can choose to cite a specific version, or the library in general.
 
 ## Getting started
 
-It suffices to put ``twisted/twisted.py`` in your directory and load it using ``load("twisted.py")`` in Sage to get started.
+It suffices to put ``twisted_ci/twisted_ci.py`` in your directory and load it using ``load("twisted_ci.py")`` in Sage to get started.
 
 Alternatively you can install it as follows:
 
@@ -28,7 +28,7 @@ Alternatively you can install it as follows:
 
 and then you can use
 
-``from twisted import *``
+``from twisted_ci import *``
 
 to use it.
 
