@@ -16,7 +16,7 @@ The file `twisted_ci/twisted_ci.py` implements the computation of twisted Hodge 
 * [MR0447266] Brückmann, Peter: Zur Kohomologie von vollständigen Durchschnitten mit Koeffizienten in der Garbe der Keime der Differentialformen. II.
   Math. Nachr. 77 (1977), 307–318.
 
-If you have used this code in any way, please consider citing it as explained on [Zenodo](https://doi.org/10.5281/zenodo.7006757). You can choose to cite a specific version, or the library in general.
+If you have used this code in any way, please consider citing it as explained on [Zenodo](https://doi.org/10.5281/zenodo.7006756). You can choose to cite a specific version, or the library in general.
 
 ## Getting started
 
@@ -75,7 +75,7 @@ Also check out the documentation for the auxiliary class `CompleteIntersection`,
 
 ## How to cite
 
-If you have used this code in any way, please consider citing it as explained on [Zenodo](https://zenodo.org/records/7006757)). You can choose to cite a specific version, or always the latest version.
+If you have used this code in any way, please consider citing it as explained on [Zenodo](https://zenodo.org/records/7006756)). You can choose to cite a specific version, or always the latest version.
 
 The following BibTeX entry is a good starting point:
 
@@ -90,7 +90,7 @@ The following BibTeX entry is a good starting point:
 
 which leads to something like
 
-> Pieter Belmans and Piet Glas. _Twisted Hodge diamonds of complete intersections_. doi:10.5281/zenodo.7006756. url: ht<span>tps://github.com/pbelmans/twisted-hodge.
+> Pieter Belmans and Piet Glas. _Twisted Hodge diamonds of complete intersections_. doi:10.5281/zenodo.7006756. url: ht<span>tps://github.com/pbelmans/twisted-hodge-ci.
 
 
 ## Instructions to myself
