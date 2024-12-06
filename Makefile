@@ -1,19 +1,12 @@
 install:
 	sage -pip install --upgrade -v -e .
-	rm -r twisted_ci.egg-info
+	rm -rf twisted_ci.egg-info
 
 test:
 	sage -t twisted_ci
 
 coverage:
 	sage --coverage twisted_ci
-
-docs: docs/Makefile
-	cd docs && make html
-	cd docs && make latexpdf
-
-docs-clean:
-	cd docs && make clean
 
 lint:
 	black twisted_ci
