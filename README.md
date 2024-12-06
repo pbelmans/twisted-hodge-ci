@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/220016736.svg)](https://zenodo.org/badge/latestdoi/220016736)
-[![license](https://badgen.net/github/license/pbelmans/twisted-hodge)](https://github.com/pbelmans/twisted-hodge/blob/master/LICENSE)
+[![license](https://badgen.net/github/license/pbelmans/twisted-hodge-ci)](https://github.com/pbelmans/twisted-hodge-ci/blob/master/LICENSE)
 
-[![tests](https://github.com/pbelmans/twisted-hodge/actions/workflows/tests.yml/badge.svg)](https://github.com/pbelmans/twisted-hodge/actions)
+[![tests](https://github.com/pbelmans/twisted-hodge-ci/actions/workflows/tests.yml/badge.svg)](https://github.com/pbelmans/twisted-hodge-ci/actions)
 
 # Twisted Hodge numbers for complete intersections
 
@@ -24,7 +24,7 @@ It suffices to put ``twisted/twisted.py`` in your directory and load it using ``
 
 Alternatively you can install it as follows:
 
-``sage --pip install git+https://github.com/pbelmans/twisted-hodge.git``
+``sage --pip install git+https://github.com/pbelmans/twisted-hodge-ci.git``
 
 and then you can use
 
