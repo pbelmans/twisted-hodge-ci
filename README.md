@@ -5,7 +5,7 @@
 
 # Twisted Hodge numbers for complete intersections
 
-The file `twisted.py` implements the computation of twisted Hodge numbers for complete intersections, due to Brückmann in the following papers
+The file `twisted_ci/twisted_ci.py` implements the computation of twisted Hodge numbers for complete intersections, due to Brückmann in the following papers
 
 * [MR0399102] Brückmann, Peter: Zur Kohomologie von projektiven Hyperflächen.
   Beiträge zur Algebra und Geometrie, 2. 4 (1973), 87–101 (1974).
@@ -98,7 +98,7 @@ which leads to something like
 To perform the unit tests:
 
 ```
-sage -t twisted/twisted.py
+sage -t twisted_ci
 ```
 
 ## Authors
