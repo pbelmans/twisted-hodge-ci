@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/220016736.svg)](https://zenodo.org/badge/latestdoi/220016736)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7006756.svg)](https://doi.org/10.5281/zenodo.7006756)
 [![license](https://badgen.net/github/license/pbelmans/twisted-hodge-ci)](https://github.com/pbelmans/twisted-hodge-ci/blob/master/LICENSE)
 
 [![tests](https://github.com/pbelmans/twisted-hodge-ci/actions/workflows/tests.yml/badge.svg)](https://github.com/pbelmans/twisted-hodge-ci/actions)
