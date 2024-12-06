@@ -17,5 +17,5 @@ jobs:
       - name: Install the Twisted Hodge numbers calculator
         run: sage --pip install .
       - name: Run the tests
-        run: sage -t twisted/twisted.py
+        run: sage -t twisted_ci/twisted.py
 
