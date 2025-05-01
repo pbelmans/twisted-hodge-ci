@@ -679,8 +679,32 @@ class TwistedHodgeDiamond:
         INPUT:
 
         - ``key``: tuple of indices for the (twisted) Hodge diamond
+
+        EXAMPLES:
+
+        Hodge diamond of a curve of genus 4::
+
+            sage: from twisted_ci import *
+            sage: C = TwistedHodgeDiamond((3, [2, 3]))
+            sage: C[0, 1]
+            4
+
+        Indexing out of bounds gives 0::
+
+            sage: C[0, 2]
+            0
+            sage: C[2, 0]
+            0
+            sage: C[-1, -1]
+            0
+
         """
         p, q = key
+
+        # if out of bounds we shouldn't use Sage's matrix indexing
+        if p < 0 or q < 0 or p > self.variety.dimension or q > self.variety.dimension:
+            return 0
+
         return self.__M[p, q]
 
     @property
