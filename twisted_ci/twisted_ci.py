@@ -104,6 +104,12 @@ def twisted_hodge_number(X, j, p, q):
         sage: T = [twisted_hodge_number(CompleteIntersection(15, [3, 4] + [2]*u, 2), r, r, 0) for u in range(1, 5) for r in range(0, 8, 2)]
         sage: T == [binomial(r / 2 + u - 1, u - 1) for u in range(1, 5) for r in range(0, 8, 2)]
         True
+
+    A cubic fourfold has no global 1-forms, also when the characteristic
+    divides the degree (issue #3, [equation (43), 1])::
+
+        sage: twisted_hodge_number(CompleteIntersection(5, 3, 3), 0, 1, 0)
+        0
     """
 
     def binom(n, k):
@@ -223,7 +229,7 @@ def twisted_hodge_number(X, j, p, q):
                 # apply equation (43) from [1]
                 return (
                     varphi(d, m, r, p)
-                    if r % 2 == 0
+                    if r % 2 == 1
                     else varphi(d, m, r, p) + kronecker_delta(p, r // 2 * m)
                 )
             if q in range(1, d):
